@@ -1,0 +1,22 @@
+generated: '2026-07-20'
+method: searched
+host: https://noda.ai
+notes: >-
+  All standard /.well-known discovery documents probed on the marketing host
+  return 404 (apex 301-redirects to www, which serves the SPA 404 for these
+  paths). Noda publishes no API discovery surface. Absence recorded as valid
+  data; no WellKnown/SecurityTxt pointer emitted since nothing was found.
+documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /llms.txt
+    status: 200
+    file: ../llms/noda-llms.txt
+  - path: /.well-known/ai-plugin.json
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404

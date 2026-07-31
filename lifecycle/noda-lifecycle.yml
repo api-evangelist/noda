@@ -1,0 +1,20 @@
+generated: '2026-07-20'
+method: searched
+source: https://noda.ai/service-level-agreement
+notes: >-
+  Noda exposes no public developer API, so there is no API versioning or
+  deprecation policy to capture. The one real lifecycle signal the provider
+  publishes is a customer-facing Service Level Agreement for the hosted
+  platform.
+versioning: null
+deprecation: null
+status_page: null
+sla:
+  url: https://noda.ai/service-level-agreement
+  uptime_target: "99.5%"
+  measurement_window: quarterly
+  max_downtime_per_quarter_minutes: 657
+  service_credits:
+    - availability_range: "95% - 99.5%"
+      credit: "5% of quarterly charge"
+deprecated_operations: []

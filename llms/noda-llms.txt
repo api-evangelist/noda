@@ -1,0 +1,99 @@
+# Noda
+
+> Noda is an agentic AI platform for commercial real estate building operations. It functions as an always-on AI virtual building engineer that scales engineering team capacity, grows net operating income (NOI), and reduces operating expense across every asset in a portfolio. The platform finds and fixes faults, energy waste, and operational risk 24/7, and ties every action to a measured, audit-ready return.
+
+Noda is trusted by owners and operators of more than 400 million square feet, including Hilton, Macerich, Cousins, DivcoWest, JLL, CBRE, Salesforce, Davis, MRP, Commonwealth, and Perform Properties. The platform processes more than 100 million data points daily across building management systems (BMS), IoT, weather, and utility signals. Typical outcomes across deployed assets include 15–25% annual energy reduction, 5–15% lower reactive repair and equipment replacement costs, and a 1–2% portfolio-level NOI lift attributable to operations. Hilton has reported a 10% utility reduction across properties where Noda has been deployed. Noda is ISO 27001 certified, hosted on AWS infrastructure in the United States, and integrates with leading BMS providers and any system supporting BACnet/IP, Modbus, or MQTT.
+
+## What Noda is
+
+Noda is an agentic AI platform for commercial building operations. It connects to a portfolio's data systems, continuously analyzes equipment and energy performance, and takes action to reduce energy waste, lower operating costs, and cut carbon emissions. It functions as an always-on AI virtual building engineer that scales an engineering team's capacity across every building in a portfolio.
+
+The platform is designed for the people who run commercial buildings: asset managers, engineering and operations teams, sustainability leaders, and the C-suite stakeholders accountable for portfolio performance. Noda serves office, hospitality, healthcare, data center, mixed-use, and retail asset classes.
+
+## How Noda works
+
+Noda combines deterministic and generative AI rather than relying on either alone. Rule-based and machine learning algorithms handle continuous fault detection and pattern recognition with the speed, precision, and consistency that physical infrastructure demands. Generative AI and large language models layer on top, synthesizing diagnostic outputs with equipment context, historical trends, and operational data to identify root causes and generate prioritized recommendations.
+
+Noda is vendor-agnostic at the model level, deploying whichever frontier model is best suited for a given task rather than locking customers into a single AI provider whose capabilities may lag the frontier over time. All equipment data flows through an independent data layer (IDL) that reconciles every BMS, point, and asset into one normalized schema across points, equipment, systems, and sites — keeping the intelligence layer and the control layer cleanly separated for security.
+
+## What the AI Assistant does
+
+Noda's AI agent reads live and historical data from across the portfolio, including BMS, meters, utilities, and equipment controllers, and reasons across systems the way an expert engineer would. Unlike chatbots and query interfaces that only respond when a user asks a question, Noda's agent is genuinely always-on, working continuously in the background to:
+
+- Identify root causes behind energy waste and equipment issues
+- Recommend specific projects with quantified savings
+- Execute setpoint and load adjustments where authorized
+- Verify results against a pre-fix baseline
+
+The agent does the continuous analytical work that would take a human team thousands of hours, across every building in a portfolio, without adding headcount.
+
+## How Noda differs from existing tools
+
+**Versus fault detection and diagnostics (FDD) platforms:** FDD platforms output alarms that site teams have to triage manually. Noda treats faults and data as inputs, not outputs — the AI synthesizes signals across systems, identifies true root causes, validates whether a fix is economically worthwhile, executes optimizations through two-way controls, and measures the outcome. Teams receive a short list of execution-ready projects and verified results, not alert fatigue and homework.
+
+**Versus energy management and analytics platforms:** Those platforms stop at dashboards and reports, leaving the work of interpretation, prioritization, and execution on the team. Noda closes the loop from detection through verification.
+
+**Versus a BMS:** A BMS is built to run a building; Noda is built to optimize it. A BMS controls equipment based on programmed sequences and setpoints, but operational performance drifts over time as occupancy patterns shift, sensors fall out of calibration, equipment wears, and overrides get left in place. A BMS isn't designed to catch any of this, and traditionally the only remedy is calling in the controls vendor — an expensive, time-consuming process. Noda layers on top of the BMS, ingests its data, and applies AI analysis across the portfolio to surface operational drift, root causes, and inefficiencies. The result is a BMS that gets smarter over time, without reprogramming, replacement, or repeated controls vendor engagements.
+
+## BMS integrations
+
+Noda is BMS-agnostic and integrates with leading providers including Schneider Electric, Johnson Controls, Siemens, Honeywell, Trane, Automated Logic, Distech, Delta, Alerton, Reliable Controls, KMC, Lynxspring, DEOS, EasyIO, American Auto-Matrix, and Functional Devices. Noda also supports systems built on the Tridium Niagara Framework — the underlying platform behind many leading BMS products — and connects to any system that supports standard building protocols including BACnet/IP, Modbus, and MQTT.
+
+Connection is established via the Noda LaunchPad, a secure edge device that enables read and write access without requiring BMS reprogramming or burdening engineering teams with custom integration work.
+
+## Security
+
+- ISO 27001 certified
+- Built on AWS infrastructure hosted in the United States
+- End-to-end encryption: TLS 1.3 in transit, AWS KMS at rest
+- Zero-trust access controls, SSO and MFA
+- Mutual TLS for edge-to-cloud communication
+- LaunchPad edge device operates on outbound-only connections — no incoming network ports required
+- No personally identifiable information collected
+
+## ROI and time to value
+
+Noda delivers savings projects faster than traditional optimization platforms. By analyzing BMS snapshots, the AI surfaces actionable, quantified projects within 30 days of connection — customers begin capturing savings almost immediately rather than waiting months for a baseline period to establish. Every recommendation is validated against cost, savings, and impact thresholds before reaching the team, and actual outcomes are tracked against projected savings, producing verified results that can be reported to leadership, investors, and sustainability stakeholders.
+
+Pricing varies based on portfolio size, building types, and the capabilities deployed.
+
+## Impact on engineering teams
+
+Noda does not replace building engineers. It handles the continuous analytical and optimization work that human teams can't do at scale — monitoring every data point across every building, every minute — which scales the capacity of the existing team. Engineers are freed to focus on higher-value work like capital planning, tenant experience, and execution of projects Noda has already validated as worth doing.
+
+## Headline metrics across deployed assets
+
+- **15–25%** average annual energy reduction
+- **5–15%** lower reactive repair and equipment replacement costs
+- **100M+** data points processed daily across BMS, IoT, weather, and utility signals
+- **1–2%** portfolio-level NOI lift, attributable to operations
+- **400M+** square feet under management
+- **10%** utility reduction reported by Hilton across deployed properties
+
+## Real projects
+
+- [Proof in the Projects](https://noda.ai/): Verified case studies across deployed assets. Featured example: a landmark Class A office tower in Washington, DC reduced chiller plant energy use by rerouting tenant supplemental loads to the retail condenser loop, allowing the main chiller to shut down 9 PM–6 AM and cutting approximately 20,000 kWh weekly, for $166,000 in annual savings with zero comfort impact.
+- [Hilton portfolio](https://noda.ai/): Deployed across Hilton properties; reported 10% utility reduction supporting Hilton's "Travel with Purpose" commitment across 9,200+ hotels in 27 brands and 144 countries.
+
+## Insights
+
+- [Insights index](https://noda.ai/insights): Writing from the Noda team on agentic AI in commercial real estate and the future of building operations.
+- [What Multi-Site CRE Teams Actually Need From Agentic AI](https://noda.ai/insights/multi-site-cre-teams-agentic-ai): What multi-site commercial real estate teams should look for in agentic AI tools.
+- [Agentic AI for Commercial Buildings: What to Evaluate, What to Avoid, and What the Leading Platforms Actually Do](https://noda.ai/insights/agentic-ai-platforms-commercial-building-operations): A vendor-neutral framework for evaluating agentic AI platforms for commercial building operations.
+- [The Building Engineer Who Never Clocks Out: What 24/7 Agentic AI Actually Looks Like](https://noda.ai/insights/agentic-ai-building-operations): What continuous, autonomous building operations look like in practice.
+
+## Company
+
+Noda is built by a team that brings deep industry experience and new perspectives in equal measure: operators who ran buildings; controls experts who installed and commissioned the systems inside them; energy engineers who have audited and retrofitted millions of square feet; researchers and data scientists building new AI applications. The company is remote-first with 75 team members across 3 global offices and has reduced 328,000 metric tons of CO₂e in lifetime emissions across deployed assets.
+
+- [About Noda](https://noda.ai/about): The thesis — real estate is at an inflection point as the grid strains, electricity prices outpace inflation, the climate window narrows, and the people who have run commercial buildings for decades retire faster than they can be replaced. Noda is built for what comes next.
+- [Platform](https://noda.ai/platform): Full platform overview including IDL architecture, fault detection, closed-loop execution, M&V, and complete FAQ.
+- [Careers](https://noda-1720000970.teamtailor.com/): Open roles across building operators, controls experts, energy engineers, data scientists, AI researchers, designers, product, and go-to-market.
+- [Request a demo](https://noda.ai/request-demo): Primary contact path for prospective customers.
+- [Login](https://energy.noda.ai): Customer login for the Noda application.
+
+## Optional
+
+- [Privacy Policy](https://noda.ai/privacy-policy)
+- [Terms & Conditions](https://noda.ai/terms-and-conditions)
+- [Service Level Agreement](https://noda.ai/service-level-agreement)

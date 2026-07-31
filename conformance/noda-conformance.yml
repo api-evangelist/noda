@@ -1,0 +1,35 @@
+generated: '2026-07-20'
+method: searched
+source: https://noda.ai/llms.txt
+notes: >-
+  Noda publishes no OpenAPI/AsyncAPI surface, so standards conformance is
+  asserted from the provider's own published security posture (llms.txt
+  "Security" section and platform FAQ) rather than derived from a spec. Noda
+  is an enterprise, demo-onboarded SaaS with no public developer API.
+standards:
+  - id: iso-27001
+    conforms: true
+    evidence: 'Provider states "ISO 27001 certified" (noda.ai/llms.txt, Security section)'
+  - id: tls-1.3
+    conforms: true
+    evidence: 'End-to-end encryption: TLS 1.3 in transit, AWS KMS at rest (noda.ai/llms.txt)'
+  - id: mutual-tls
+    conforms: true
+    evidence: 'Mutual TLS for edge-to-cloud (LaunchPad) communication (noda.ai/llms.txt)'
+  - id: sso-mfa
+    conforms: true
+    evidence: 'Zero-trust access controls, SSO and MFA (noda.ai/llms.txt)'
+  - id: soc2
+    conforms: false
+    evidence: no published SOC 2 claim found
+  - id: oauth2
+    conforms: false
+    evidence: no public API / OpenAPI securitySchemes to assert against
+  - id: rfc9457-problem-details
+    conforms: false
+    evidence: no public API surface
+compliance_program:
+  certifications:
+    - ISO 27001
+  hosting: AWS (United States)
+  data_handling: No personally identifiable information collected

@@ -1,8 +1,30 @@
 aid: noda
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/noda.png
 name: Noda
-description: 'Noda is a company surfaced as a portfolio company of northzone and added to the API Evangelist
-  network as a stub for enrichment. Sector: enterprise. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: >-
+  Noda (formerly Infogrid) is an agentic AI platform for commercial real estate
+  building operations. It functions as an always-on AI virtual building engineer
+  that connects to a portfolio's building management systems (BMS), IoT, weather,
+  and utility data, continuously detects faults and energy waste, identifies root
+  causes, generates quantified savings recommendations, and executes authorized
+  setpoint and load adjustments — tying every action to measured, audit-ready ROI.
+  The platform processes 100M+ data points daily and reports 15-25% annual energy
+  reduction across deployed assets. Trusted by owners and operators of 400M+
+  square feet including Hilton, JLL, CBRE, Macerich, Cousins, DivcoWest and
+  Salesforce. ISO 27001 certified and hosted on AWS in the United States. Backed
+  by Northzone. Noda exposes no public developer API; onboarding is
+  enterprise/demo-based.
 url: https://raw.githubusercontent.com/api-evangelist/noda/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +34,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Enterprise
+- Agentic AI
+- Building Operations
+- Commercial Real Estate
+- Energy Management
+- Smart Buildings
+- PropTech
+- Building Automation
+- Sustainability
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +55,26 @@ maintainers:
 common:
 - type: Website
   url: https://noda.ai
+- type: Blog
+  url: https://noda.ai/insights
+- type: Login
+  url: https://energy.noda.ai
+- type: TermsOfService
+  url: https://noda.ai/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://noda.ai/privacy-policy
+- type: LLMsTxt
+  url: llms/noda-llms.txt
+- type: DomainSecurity
+  url: security/noda-domain-security.yml
+- type: Conformance
+  url: conformance/noda-conformance.yml
+- type: Compliance
+  url: conformance/noda-conformance.yml
+- type: Lifecycle
+  url: lifecycle/noda-lifecycle.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 5
+  pass: local-v1
