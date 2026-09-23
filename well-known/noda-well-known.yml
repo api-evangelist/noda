@@ -1,17 +1,14 @@
 generated: '2026-07-20'
 method: searched
 host: https://noda.ai
-notes: >-
-  All standard /.well-known discovery documents probed on the marketing host
-  return 404 (apex 301-redirects to www, which serves the SPA 404 for these
-  paths). Noda publishes no API discovery surface. Absence recorded as valid
-  data; no WellKnown/SecurityTxt pointer emitted since nothing was found.
-documents:
+notes: All standard /.well-known discovery documents probed on the marketing host return 404 (apex 301-redirects
+  to www, which serves the SPA 404 for these paths). Noda publishes no API discovery surface. Absence
+  recorded as valid data; no WellKnown/SecurityTxt pointer emitted since nothing was found.
+hosts:
+- host: https://noda.ai
+  documents:
   - path: /.well-known/security.txt
     status: 404
-  - path: /llms.txt
-    status: 200
-    file: ../llms/noda-llms.txt
   - path: /.well-known/ai-plugin.json
     status: 404
   - path: /.well-known/openid-configuration
@@ -20,3 +17,8 @@ documents:
     status: 404
   - path: /.well-known/api-catalog
     status: 404
+x-shape-fix:
+  converted: '2026-08-20'
+  from: documents
+  note: Rewritten into hosts[] -> documents[], the only shape well_known_docs() in score.rb reads. A served
+    .well-known surface recorded in any other shape scores as absent.
